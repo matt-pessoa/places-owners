@@ -29,6 +29,6 @@ window.onload = () => {
   };
 
   getBackBtn.onclick = () => {
-    window.location.replace('/places-owners/index.html');
+    window.location.replace('https://matt-pessoa.github.io/places-owners/');
   };
 };

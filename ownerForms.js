@@ -37,6 +37,8 @@ window.onload = () => {
 
     localStorage.setItem('owners', JSON.stringify(owners));
 
-    window.location.replace('/places-owners/placeForms.html');
+    window.location.replace(
+      'https://matt-pessoa.github.io/places-owners//placeForms.html'
+    );
   };
 };
