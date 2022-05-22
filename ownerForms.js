@@ -37,8 +37,6 @@ window.onload = () => {
 
     localStorage.setItem('owners', JSON.stringify(owners));
 
-    window.location.replace(
-      '/codigo/places-owners-registration/placeForms.html'
-    );
+    window.location.replace('/placeForms.html');
   };
 };

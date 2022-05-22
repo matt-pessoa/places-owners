@@ -7,6 +7,8 @@ window.onload = () => {
   const owners = JSON.parse(localStorage.getItem('owners'));
   const lastOwner = owners[owners.length - 1];
 
+  const getBackBtn = document.getElementById('get-back-btn');
+
   const submitPlaceBtn = document.getElementById('submit-place-btn');
   const nameInput = document.getElementById('place-name-input');
   const cnpjInput = document.getElementById('cnpj-input');
@@ -24,5 +26,9 @@ window.onload = () => {
     lastOwner['place'] = jsonPlace;
     owners[owners.length - 1] = lastOwner;
     localStorage.setItem('owners', JSON.stringify(owners));
+  };
+
+  getBackBtn.onclick = () => {
+    window.location.replace('/index.html');
   };
 };
