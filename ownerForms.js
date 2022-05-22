@@ -37,6 +37,6 @@ window.onload = () => {
 
     localStorage.setItem('owners', JSON.stringify(owners));
 
-    window.location.replace('/placeForms.html');
+    window.location.replace('/places-owners/placeForms.html');
   };
 };

@@ -29,6 +29,6 @@ window.onload = () => {
   };
 
   getBackBtn.onclick = () => {
-    window.location.replace('/index.html');
+    window.location.replace('/places-owners/index.html');
   };
 };
